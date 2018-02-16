@@ -30,7 +30,7 @@ import Collapsible from 'react-native-collapsible';
 | **`easing`**          | Function or function name from [`Easing`](https://github.com/facebook/react-native/blob/master/Libraries/Animated/src/Easing.js) (or [`tween-functions`](https://github.com/chenglou/tween-functions) if < RN 0.8). Collapsible will try to combine `Easing` functions for you if you name them like `tween-functions`. | `easeOutCubic` |
 
 ## Functions
-toogleCollaps(collaps)
+toggleCollapsed(collapsed: boolean)
 
 
 ## Accordion Usage
