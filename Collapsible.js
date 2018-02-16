@@ -93,6 +93,10 @@ export default class Collapsible extends Component {
     );
   }
 
+  toggleCollapsed(collapsed: boolean) {
+    this._toggleCollapsed(collapsed);
+  }
+
   _toggleCollapsed(collapsed) {
     if (collapsed) {
       this._transitionToHeight(this.props.collapsedHeight);
